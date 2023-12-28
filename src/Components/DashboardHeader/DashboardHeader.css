@@ -1,0 +1,70 @@
+.promo_card {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: linear-gradient(90deg, #5D54A4, #7C78B8);
+}
+
+.promo_card h1,
+.promo_card span,
+button {
+  margin: 10px;
+}
+
+.promo_card button {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .promo_card {
+      width: 55%;
+      padding: 0.5rem 1rem 1rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .promo_card h1 {
+      font-size: 22px;
+  }
+
+  .promo_card span {
+      font-size: 16px; /* Fixed typo: 'promo_cardpx' to 'px' */
+  }
+
+  .desc {
+      width: 100%; /* Adjust width for smaller screens */
+  }
+}
+
+
+@media(max-width:665px){
+  .promo_card {
+    width: 45%;
+    padding: 0.5rem 1rem 1rem 1rem;
+
+   /* Adjust padding for smaller screens */
+}
+
+.promo_card h1 {
+    font-size: 16px;
+}
+
+.promo_card span {
+    font-size: 14px; /* Fixed typo: 'promo_cardpx' to 'px' */
+}
+
+.desc {
+    width: 100%; /* Adjust width for smaller screens */
+}
+}
+
+@media(max-width:465px){
+  .promo_card span {
+    /* Fixed typo: 'promo_cardpx' to 'px' */
+    display: none;
+}
+}
